@@ -3,20 +3,41 @@ body
 	background-color: lemonchiffon;
 }
 
-div.navigation
+div#navigation
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
+	width: 33%;
+	position: relative;
+	left: 33%;
+
+	a
+	{
+		font-size: 1.5em;
+
+		background-color: lightblue;
+
+		border-style: outset;
+		border-color: lightskyblue;
+		border-width: 0.25em;
+	}
+
+	a:link
+	{
+		text-decoration: none;
+		color: black;
+	}
+
+	a:visited
+	{
+		color:black
+	}
+
+	a:active
+	{
+		border-style: inset;
+		color: gray
+	}
 }
 
-a
-{
-	background-color: lightblue;
-	border-style: outset;
-}
-
-a:link
-{
-	text-decoration: none;
-}
