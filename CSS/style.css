@@ -1,0 +1,22 @@
+body
+{
+	background-color: lemonchiffon;
+}
+
+div.navigation
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+a
+{
+	background-color: lightblue;
+	border-style: outset;
+}
+
+a:link
+{
+	text-decoration: none;
+}
