@@ -3,18 +3,33 @@ body
 	background-color: lemonchiffon;
 }
 
+img
+{
+	width:128px;
+}
+
+div#header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	img
+	{
+		transform: scaleX(-1);
+	}
+}
+
 div#navigation
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	width: 33%;
-	position: relative;
-	left: 33%;
+	justify-content: center;
+	align-content: center;
 
 	a
 	{
 		font-size: 1.5em;
+		height: 1.5em;
 
 		background-color: lightblue;
 
