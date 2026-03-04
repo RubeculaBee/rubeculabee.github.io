@@ -1,11 +1,20 @@
 body
 {
 	background-color: lemonchiffon;
+	display: flex;
+	flex-direction: column;
 }
 
 img
 {
-	width:128px;
+	width:50%;
+}
+
+hr
+{
+	background-color: darkkhaki;
+	height: 2px;
+	width: 100%
 }
 
 div#header
@@ -56,3 +65,34 @@ div#navigation
 	}
 }
 
+div.post
+{
+	background-color: whitesmoke;
+	border-style: outset;
+
+	align-self: center;
+	width: 40%;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+
+	font-size: 1.25em;
+	text-align: center;
+
+}
+
+p.title
+{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+p.date
+{
+	font-size: 0.75em;
+}
+
+li
+{
+	font-weight: bold;
+}
