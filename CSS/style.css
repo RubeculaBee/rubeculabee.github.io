@@ -96,3 +96,8 @@ li
 {
 	font-weight: bold;
 }
+
+div.spacer
+{
+	height: 4em;
+}
